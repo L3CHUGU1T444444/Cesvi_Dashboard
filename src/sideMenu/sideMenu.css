@@ -1,0 +1,82 @@
+a{
+    /* color: #BFBFBF; */
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+/* --------------- */
+/* SECTION LOGO */
+/* --------------- */
+#section-logo{
+    margin-top: 5px;
+}
+
+/* --------------- */
+/* SECTION BUTTONS */
+/* --------------- */
+#section-btn{
+    margin: 0 15px;
+}
+/* Main Buttons */
+#btn-menu{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    height: 45px;
+    padding: 0 20px;
+    text-align: start;
+}
+
+/* Container Buttons */
+#div-btn-menu{
+    padding: 0 20px;
+}
+/* Button text */
+#a-btn{
+    font-size: 12px;
+    margin: 0 10px 0 25px;
+}
+
+/* --------------- */
+/* SECTION BUTTONS */
+/* --------------- */
+#section-user{
+    margin-bottom: 15px;
+}
+/* User Button */
+#user-btn{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 25px;
+}
+
+/* Name text */
+#user-name-btn{
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+
+
+/* --------------- */
+/* SECTION BUTTONS */
+/* --------------- */
+#btn-menu:hover{
+    background-color: #014E7D;
+    opacity: 0.75;
+}
+#user-btn:focus, #btn-menu:focus{
+    outline: none;
+    box-shadow: none;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: #014E7D;
+}
