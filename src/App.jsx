@@ -4,6 +4,7 @@ import { SIDEMENU } from './sideMenu/sideMenu.jsx';
 import { MAINDASHBOARD } from './Content/paginaPrincipal.jsx';
 import { ADDACCIDENTS } from './Content/agregarSiniestros.jsx';
 import { GARAGE } from './Content/talleresMecanicos.jsx';
+import { CONSULTARSINIESTROS } from './Content/consultarSiniestros.jsx';
 
 function App() {
   const [active, setActive] = useState('MAINDASHBOARD');
@@ -18,6 +19,7 @@ function App() {
         {active === 'MAINDASHBOARD' && <MAINDASHBOARD />}
         
         {active === 'GARAGE' && <GARAGE />}
+        {active === 'CONSULTARSINIESTROS' && <CONSULTARSINIESTROS />}
         {active === 'ADDACCIDENTS' && <ADDACCIDENTS />}
       </section>
     </div>

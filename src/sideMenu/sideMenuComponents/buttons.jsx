@@ -19,6 +19,9 @@ export default function Button({ setActive }) {
         } else if (sectionClicked === 'Agregar') {
             active = 'ADDACCIDENTS';
         }
+        else if (sectionClicked === 'Consultar') {
+            active = 'CONSULTARSINIESTROS';
+        }
 
         setActive(active);
     }
