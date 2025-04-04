@@ -22,7 +22,7 @@ export function CONSULTARPORAGENCIA() {
   const [isMesOpen, setIsMesOpen] = useState(false);
   const [isEstadoOpen, setIsEstadoOpen] = useState(false);
 
-  const agencias = ["Agencia 1", "Agencia 2", "Agencia 3"];
+  const agencias = ["Ejemplo 1", "Ejemplo 2", "Ejemplo 3"];
   const años = ["2023", "2022", "2021"];
   const meses = [
     "Enero",
@@ -79,7 +79,7 @@ export function CONSULTARPORAGENCIA() {
       Enero: [
         {
           logo: "🏢",
-          nombre: "Agencia 1",
+          nombre: "Ejemplo 1",
           talleres: 10,
           usuarios: 50,
           siniestros: 200,
@@ -87,7 +87,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 2",
+          nombre: "Ejemplo 2",
           talleres: 8,
           usuarios: 30,
           siniestros: 150,
@@ -95,7 +95,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 3",
+          nombre: "Ejemplo 3",
           talleres: 12,
           usuarios: 60,
           siniestros: 250,
@@ -105,7 +105,7 @@ export function CONSULTARPORAGENCIA() {
       Febrero: [
         {
           logo: "🏢",
-          nombre: "Agencia 1",
+          nombre: "Ejemplo 1",
           talleres: 12,
           usuarios: 55,
           siniestros: 220,
@@ -113,7 +113,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 2",
+          nombre: "Ejemplo 2",
           talleres: 9,
           usuarios: 35,
           siniestros: 160,
@@ -121,7 +121,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 3",
+          nombre: "Ejemplo 3",
           talleres: 14,
           usuarios: 65,
           siniestros: 270,
@@ -134,7 +134,7 @@ export function CONSULTARPORAGENCIA() {
       Enero: [
         {
           logo: "🏢",
-          nombre: "Agencia 1",
+          nombre: "Ejemplo 1",
           talleres: 8,
           usuarios: 40,
           siniestros: 180,
@@ -142,7 +142,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 2",
+          nombre: "Ejemplo 2",
           talleres: 6,
           usuarios: 25,
           siniestros: 130,
@@ -150,7 +150,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 3",
+          nombre: "Ejemplo 3",
           talleres: 10,
           usuarios: 50,
           siniestros: 220,
@@ -160,7 +160,7 @@ export function CONSULTARPORAGENCIA() {
       Febrero: [
         {
           logo: "🏢",
-          nombre: "Agencia 1",
+          nombre: "Ejemplo 1",
           talleres: 9,
           usuarios: 42,
           siniestros: 190,
@@ -168,7 +168,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 2",
+          nombre: "Ejemplo 2",
           talleres: 7,
           usuarios: 28,
           siniestros: 140,
@@ -176,7 +176,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 3",
+          nombre: "Ejemplo 3",
           talleres: 11,
           usuarios: 53,
           siniestros: 230,
@@ -189,7 +189,7 @@ export function CONSULTARPORAGENCIA() {
       Enero: [
         {
           logo: "🏢",
-          nombre: "Agencia 1",
+          nombre: "Ejemplo 1",
           talleres: 6,
           usuarios: 30,
           siniestros: 150,
@@ -197,7 +197,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 2",
+          nombre: "Ejemplo 2",
           talleres: 5,
           usuarios: 20,
           siniestros: 100,
@@ -205,7 +205,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 3",
+          nombre: "Ejemplo 3",
           talleres: 8,
           usuarios: 40,
           siniestros: 180,
@@ -215,7 +215,7 @@ export function CONSULTARPORAGENCIA() {
       Febrero: [
         {
           logo: "🏢",
-          nombre: "Agencia 1",
+          nombre: "Ejemplo 1",
           talleres: 7,
           usuarios: 32,
           siniestros: 160,
@@ -223,7 +223,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 2",
+          nombre: "Ejemplo 2",
           talleres: 6,
           usuarios: 22,
           siniestros: 110,
@@ -231,7 +231,7 @@ export function CONSULTARPORAGENCIA() {
         },
         {
           logo: "🏢",
-          nombre: "Agencia 3",
+          nombre: "Ejemplo 3",
           talleres: 9,
           usuarios: 42,
           siniestros: 190,
@@ -246,7 +246,7 @@ export function CONSULTARPORAGENCIA() {
   const defaultAgenciasData = [
     {
       logo: "🏢",
-      nombre: "Agencia 1",
+      nombre: "Ejemplo 1",
       talleres: 10,
       usuarios: 50,
       siniestros: 200,
@@ -254,7 +254,7 @@ export function CONSULTARPORAGENCIA() {
     },
     {
       logo: "🏢",
-      nombre: "Agencia 2",
+      nombre: "Ejemplo 2",
       talleres: 8,
       usuarios: 30,
       siniestros: 150,
@@ -262,7 +262,7 @@ export function CONSULTARPORAGENCIA() {
     },
     {
       logo: "🏢",
-      nombre: "Agencia 3",
+      nombre: "Ejemplo 3",
       talleres: 12,
       usuarios: 60,
       siniestros: 250,
@@ -323,7 +323,12 @@ export function CONSULTARPORAGENCIA() {
             {/* Agencia */}
             <div
               className="filtro-item"
-              onClick={() => setIsAgenciaOpen(!isAgenciaOpen)}
+              onClick={() => {
+                setIsAgenciaOpen(!isAgenciaOpen);
+                setIsAnioOpen(false); // Cierra otros desplegables
+                setIsMesOpen(false);
+                setIsEstadoOpen(false);
+              }}
             >
               <span>Agencia</span>
               <FaChevronRight
@@ -336,7 +341,7 @@ export function CONSULTARPORAGENCIA() {
                       key={agencia}
                       onClick={() => {
                         setSelectedAgencia(agencia);
-                        setIsAgenciaOpen(false);
+                        setIsAgenciaOpen(false); // Cierra el desplegable actual
                       }}
                     >
                       {agencia}
@@ -349,7 +354,12 @@ export function CONSULTARPORAGENCIA() {
             {/* Año */}
             <div
               className="filtro-item"
-              onClick={() => setIsAnioOpen(!isAnioOpen)}
+              onClick={() => {
+                setIsAnioOpen(!isAnioOpen);
+                setIsAgenciaOpen(false); // Cierra otros desplegables
+                setIsMesOpen(false);
+                setIsEstadoOpen(false);
+              }}
             >
               <span>Año</span>
               <FaChevronRight
@@ -362,7 +372,7 @@ export function CONSULTARPORAGENCIA() {
                       key={año}
                       onClick={() => {
                         setSelectedAnio(año);
-                        setIsAnioOpen(false);
+                        setIsAnioOpen(false); // Cierra el desplegable actual
                       }}
                     >
                       {año}
@@ -375,7 +385,12 @@ export function CONSULTARPORAGENCIA() {
             {/* Mes */}
             <div
               className="filtro-item"
-              onClick={() => setIsMesOpen(!isMesOpen)}
+              onClick={() => {
+                setIsMesOpen(!isMesOpen);
+                setIsAgenciaOpen(false); // Cierra otros desplegables
+                setIsAnioOpen(false);
+                setIsEstadoOpen(false);
+              }}
             >
               <span>Mes</span>
               <FaChevronRight
@@ -388,7 +403,7 @@ export function CONSULTARPORAGENCIA() {
                       key={mes}
                       onClick={() => {
                         setSelectedMes(mes);
-                        setIsMesOpen(false);
+                        setIsMesOpen(false); // Cierra el desplegable actual
                       }}
                     >
                       {mes}
@@ -401,7 +416,12 @@ export function CONSULTARPORAGENCIA() {
             {/* Estado */}
             <div
               className="filtro-item"
-              onClick={() => setIsEstadoOpen(!isEstadoOpen)}
+              onClick={() => {
+                setIsEstadoOpen(!isEstadoOpen);
+                setIsAgenciaOpen(false); // Cierra otros desplegables
+                setIsAnioOpen(false);
+                setIsMesOpen(false);
+              }}
             >
               <span>Estado</span>
               <FaChevronRight
@@ -414,7 +434,7 @@ export function CONSULTARPORAGENCIA() {
                       key={estado}
                       onClick={() => {
                         setSelectedEstado(estado);
-                        setIsEstadoOpen(false);
+                        setIsEstadoOpen(false); // Cierra el desplegable actual
                       }}
                     >
                       {estado}
