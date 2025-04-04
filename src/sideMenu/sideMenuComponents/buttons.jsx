@@ -20,12 +20,16 @@ export default function Button({ setActive }) {
 
     if (sectionClicked === "Mecanico") {
       active = "GARAGE";
+    } else if (sectionClicked === "Ubicacion") {
+      active = "LOCATION";
     } else if (sectionClicked === "Agregar") {
       active = "ADDACCIDENTS";
     } else if (sectionClicked === "Consultar") {
       active = "CONSULTARSINIESTROS";
     } else if (sectionClicked === "Agencia") {
       active = "CONSULTARPORAGENCIA";
+    } else if (sectionClicked === "Historial") {
+      active = "CHANGELOG";
     }
     setActive(active);
   }

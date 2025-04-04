@@ -14,3 +14,13 @@ body {
   overflow-y: scroll;
   scroll-snap-type: block;
 }
+
+#dashboard{
+  margin-left: 285px;
+}
+
+@media (max-width: 640px){
+  #dashboard{
+    margin-left: 0;
+  }
+}
