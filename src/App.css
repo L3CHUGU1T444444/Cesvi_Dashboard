@@ -12,6 +12,7 @@ body {
   font-family: 'Roboto Mono', sans-serif;
   font-size: 400;
   overflow-y: scroll;
+  overflow-y: scroll;
   scroll-snap-type: block;
 }
 

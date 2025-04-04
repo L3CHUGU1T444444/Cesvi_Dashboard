@@ -1,3 +1,5 @@
+import "./LOCATION/ubicacionTalleres.css";
+
 export function LOCATION() {
     return (
         <div>
