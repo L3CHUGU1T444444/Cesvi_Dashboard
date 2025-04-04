@@ -1,7 +1,6 @@
 .app-container {
   display: flex;
   flex-direction: column;
-  background-color: #00111f;
   color: white;
   padding: 20px;
   font-family: Arial, sans-serif;
