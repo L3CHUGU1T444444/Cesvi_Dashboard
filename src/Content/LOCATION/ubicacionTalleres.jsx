@@ -1,4 +1,4 @@
-import "./LOCATION/ubicacionTalleres.css";
+import "./ubicacionTalleres.css";
 
 export function LOCATION() {
     return (
