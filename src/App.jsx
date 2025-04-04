@@ -19,7 +19,7 @@ function App() {
         <SIDEMENU setActive={setActive} />
       </section>
 
-      <section id="dashboard" className="h-full bg-[#00111F] w-full transition-all duration-1000">
+      <section id="dashboard" className="min-h-screen bg-[#00111F] w-full transition-all duration-1000">
         {active === "MAINDASHBOARD" && <MAINDASHBOARD />}
         {active === "GARAGE" && <GARAGE/>}
         {active === "LOCATION" && <LOCATION/>}

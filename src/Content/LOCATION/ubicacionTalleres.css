@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#title-cont-map,
+#filter-cont-map {
+    margin-left: 20px;
+}
+
+#container-map {
+    padding: 50px 75px;
+}
+#title-map{
+    padding: 0;
+    margin: 8px 0 0 20px;
+}
+#dashboard-map{
+    padding: 20px;
+}
