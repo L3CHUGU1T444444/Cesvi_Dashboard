@@ -9,6 +9,7 @@ import { ADDACCIDENTS } from "./Content/AGREGARSINIESTROS/agregarSiniestros.jsx"
 import { CONSULTARSINIESTROS } from "./Content/CONSULTARSINIESTROS/consultarSiniestros.jsx";
 import { CONSULTARPORAGENCIA } from "./Content/CONSULTARAGENCIA/consultarPorAgencia.jsx";
 import { CHANGELOG } from "./Content/CHANGELOG/historialUsuario.jsx";
+import { USERPROFILE } from "./Content/USERPROFILE/perfilUsuario.jsx";
 
 function App() {
   const [active, setActive] = useState("MAINDASHBOARD");
@@ -23,10 +24,11 @@ function App() {
         {active === "MAINDASHBOARD" && <MAINDASHBOARD />}
         {active === "GARAGE" && <GARAGE/>}
         {active === "LOCATION" && <LOCATION/>}
-        {active === "ADDACCIDENTS" && <ADDACCIDENTS />}
-        {active === "CONSULTARSINIESTROS" && <CONSULTARSINIESTROS />}
-        {active === "CONSULTARPORAGENCIA" && <CONSULTARPORAGENCIA />}
-        {active === "CHANGELOG" && <CHANGELOG />}
+        {active === "ADDACCIDENTS" && <ADDACCIDENTS/>}
+        {active === "CONSULTARSINIESTROS" && <CONSULTARSINIESTROS/>}
+        {active === "CONSULTARPORAGENCIA" && <CONSULTARPORAGENCIA/>}
+        {active === "CHANGELOG" && <CHANGELOG/>}
+        {active === "USERPROFILE" && <USERPROFILE/>}
       </section>
     </div>
   );

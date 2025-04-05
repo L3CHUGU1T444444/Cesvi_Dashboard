@@ -1,4 +1,5 @@
 import icons from "../../assets/icons.jsx";
+import USERBTN from './userButton.jsx';
 
 function BTN({ icon, text, arrow, onClick }) {
   return (
@@ -14,7 +15,7 @@ function BTN({ icon, text, arrow, onClick }) {
   );
 }
 
-export default function Button({ setActive }) {
+export default function Button ( {setActive} ) {
   function handleClick(sectionClicked) {
     let active = "MAINDASHBOARD";
 
@@ -30,19 +31,25 @@ export default function Button({ setActive }) {
       active = "CONSULTARPORAGENCIA";
     } else if (sectionClicked === "Historial") {
       active = "CHANGELOG";
+    } else if (sectionClicked === "Usuario") {
+      active = "USERPROFILE";
     }
     setActive(active);
   }
 
   return (
-    <menu className="flex flex-col items-center justify-center gap-[15px] text-[14px] w-full">
-      <BTN onClick={() => handleClick("Principal")} {...icons.Principal} />
-      <BTN onClick={() => handleClick("Mecanico")} {...icons.Mecanico} />
-      <BTN onClick={() => handleClick("Ubicacion")} {...icons.Ubicacion} />
-      <BTN onClick={() => handleClick("Agregar")} {...icons.Agregar} />
-      <BTN onClick={() => handleClick("Consultar")} {...icons.Consultar} />
-      <BTN onClick={() => handleClick("Agencia")} {...icons.Agencia} />
-      <BTN onClick={() => handleClick("Historial")} {...icons.Historial} />
-    </menu>
+    <div className="h-full w-full grid grid-rows-[1fr_100px]">
+      <menu className="flex flex-col items-center justify-center gap-[15px] text-[14px] w-full">
+        <BTN onClick={() => handleClick("Principal")} {...icons.Principal} />
+        <BTN onClick={() => handleClick("Mecanico")} {...icons.Mecanico} />
+        <BTN onClick={() => handleClick("Ubicacion")} {...icons.Ubicacion} />
+        <BTN onClick={() => handleClick("Agregar")} {...icons.Agregar} />
+        <BTN onClick={() => handleClick("Consultar")} {...icons.Consultar} />
+        <BTN onClick={() => handleClick("Agencia")} {...icons.Agencia} />
+        <BTN onClick={() => handleClick("Historial")} {...icons.Historial} />
+      </menu>
+
+      <USERBTN  onClick={() => handleClick("Usuario")}/>
+    </div>
   );
 }
