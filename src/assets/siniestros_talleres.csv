@@ -1,0 +1,101 @@
+Agencia,Estado,Municipio,Taller,Tipo-Taller,Tipo-Incidente,Intervalo-Siniestro,Tipo-de-Vehiculo,Modelo-Vehiculo,Fecha-Siniestro,Fecha-Entrega-Vehiculo,Calificacion
+Inter mx,Estado de México,Estado de México,Taller J,Agencia,Incidentes graves,C,Moto,Dodge Attitude 2018,4/18/2023,5/15/2023,77%
+Aseguradora x,Campeche,Campeche,Taller F,Multimarca,Incidentes pequeños,B,Auto,Toyota Hilux 2017,1/29/2022,2/14/2022,60%
+Aseguradora x,Guanajuato,Guanajuato,Taller H,Agencia,Incidentes graves,D,Auto,Ford Figo 2022,11/16/2022,12/3/2022,69%
+Aseguradora x,Zacatecas,Zacatecas,Taller D,Agencia,Incidentes moderados,D,Moto,Ford Figo 2022,6/28/2023,7/1/2023,83%
+Asrguradora y,Chiapas,Chiapas,Taller J,Multimarca,Incidentes moderados,B,Auto,Ford Figo 2022,9/21/2023,10/7/2023,61%
+Inter mx,Nayarit,Nayarit,Taller A,Multimarca,Incidentes graves,C,Auto,Chevrolet Aveo 2019,9/30/2024,10/7/2024,95%
+Aseguradora x,Durango,Durango,Taller E,Agencia,Incidentes pequeños,D,Moto,Toyota Hilux 2017,2/22/2022,3/6/2022,67%
+GNP,Chiapas,Chiapas,Taller G,Agencia,Incidentes moderados,D,Moto,Ford Figo 2022,11/1/2024,11/29/2024,60%
+GNP,Hidalgo,Hidalgo,Taller I,Agencia,Incidentes moderados,C,Moto,Chevrolet Aveo 2019,7/5/2024,7/14/2024,68%
+Inter mx,Nayarit,Nayarit,Taller A,Agencia,Incidentes pequeños,C,Auto,Chevrolet Aveo 2019,5/7/2024,5/26/2024,91%
+GNP,Michoacán,Michoacán,Taller H,Agencia,Incidentes moderados,C,Moto,Toyota Hilux 2017,7/16/2023,7/18/2023,83%
+Asrguradora y,Nuevo León,Nuevo León,Taller H,Agencia,Incidentes pequeños,D,Automovil Pesado,Nissan Versa 2020,3/16/2022,3/20/2022,81%
+Asrguradora y,San Luis Potosí,San Luis Potosí,Taller F,Agencia,Incidentes moderados,C,Moto,Chevrolet Aveo 2019,11/27/2024,12/15/2024,99%
+GNP,Nuevo León,Nuevo León,Taller B,Multimarca,Incidentes moderados,C,Auto,Dodge Attitude 2018,2/7/2024,3/3/2024,64%
+Aseguradora x,Campeche,Campeche,Taller D,Multimarca,Incidentes moderados,C,Moto,Honda CR-V 2021,2/6/2024,2/24/2024,79%
+Asrguradora y,Quintana Roo,Quintana Roo,Taller H,Multimarca,Incidentes pequeños,D,Auto,Nissan Versa 2020,7/26/2023,8/2/2023,86%
+Inter mx,Baja California,Baja California,Taller J,Multimarca,Incidentes graves,A,Moto,Chevrolet Aveo 2019,2/22/2023,3/13/2023,100%
+GNP,Campeche,Campeche,Taller H,Agencia,Incidentes pequeños,A,Automovil Pesado,Chevrolet Aveo 2019,3/23/2024,4/14/2024,98%
+Asrguradora y,Quintana Roo,Quintana Roo,Taller B,Multimarca,Incidentes moderados,A,Automovil Pesado,Chevrolet Aveo 2019,10/20/2022,11/14/2022,86%
+Inter mx,Sonora,Sonora,Taller E,Agencia,Incidentes moderados,C,Moto,Honda CR-V 2021,7/28/2022,8/17/2022,81%
+Inter mx,San Luis Potosí,San Luis Potosí,Taller I,Agencia,Incidentes graves,A,Auto,Toyota Hilux 2017,8/9/2023,8/15/2023,68%
+GNP,Campeche,Campeche,Taller A,Agencia,Incidentes pequeños,A,Moto,Ford Figo 2022,10/14/2023,10/29/2023,61%
+Aseguradora x,Baja California,Baja California,Taller J,Agencia,Incidentes graves,D,Auto,Ford Figo 2022,5/23/2023,6/9/2023,89%
+Inter mx,Nayarit,Nayarit,Taller E,Multimarca,Incidentes moderados,C,Automovil Pesado,Ford Figo 2022,3/23/2023,4/18/2023,99%
+Aseguradora x,Coahuila,Coahuila,Taller I,Multimarca,Incidentes pequeños,C,Automovil Pesado,Ford Figo 2022,11/27/2024,12/1/2024,95%
+Inter mx,Oaxaca,Oaxaca,Taller J,Multimarca,Incidentes graves,B,Moto,Chevrolet Aveo 2019,9/13/2024,10/1/2024,99%
+Inter mx,Oaxaca,Oaxaca,Taller J,Agencia,Incidentes moderados,B,Moto,Chevrolet Aveo 2019,1/8/2024,2/7/2024,72%
+Inter mx,Zacatecas,Zacatecas,Taller F,Multimarca,Incidentes moderados,B,Moto,Ford Figo 2022,12/29/2023,1/13/2024,89%
+Inter mx,Puebla,Puebla,Taller J,Agencia,Incidentes moderados,A,Auto,Chevrolet Aveo 2019,9/9/2024,10/9/2024,64%
+Aseguradora x,Chiapas,Chiapas,Taller J,Agencia,Incidentes moderados,C,Moto,Toyota Hilux 2017,3/17/2023,3/19/2023,73%
+Aseguradora x,Veracruz,Veracruz,Taller D,Agencia,Incidentes moderados,C,Moto,Ford Figo 2022,7/4/2022,7/16/2022,99%
+Inter mx,Hidalgo,Hidalgo,Taller F,Multimarca,Incidentes graves,A,Auto,Chevrolet Aveo 2019,2/3/2023,2/11/2023,69%
+Asrguradora y,Quintana Roo,Quintana Roo,Taller F,Multimarca,Incidentes pequeños,B,Auto,Toyota Hilux 2017,11/17/2023,11/29/2023,60%
+Inter mx,Durango,Durango,Taller H,Agencia,Incidentes graves,D,Automovil Pesado,Ford Figo 2022,4/1/2023,4/4/2023,83%
+Inter mx,San Luis Potosí,San Luis Potosí,Taller H,Multimarca,Incidentes pequeños,B,Moto,Ford Figo 2022,4/21/2023,4/24/2023,64%
+Aseguradora x,Puebla,Puebla,Taller F,Agencia,Incidentes pequeños,C,Moto,Ford Figo 2022,6/7/2022,7/1/2022,64%
+GNP,Estado de México,Estado de México,Taller E,Multimarca,Incidentes pequeños,D,Automovil Pesado,Dodge Attitude 2018,3/21/2023,4/12/2023,92%
+GNP,Hidalgo,Hidalgo,Taller I,Agencia,Incidentes graves,D,Automovil Pesado,Toyota Hilux 2017,7/28/2022,8/14/2022,70%
+Inter mx,Quintana Roo,Quintana Roo,Taller C,Multimarca,Incidentes pequeños,C,Moto,Toyota Hilux 2017,3/14/2024,3/27/2024,93%
+GNP,Estado de México,Estado de México,Taller C,Multimarca,Incidentes moderados,D,Moto,Ford Figo 2022,3/14/2023,4/13/2023,76%
+GNP,Nuevo León,Nuevo León,Taller H,Multimarca,Incidentes moderados,C,Automovil Pesado,Chevrolet Aveo 2019,1/4/2024,2/1/2024,89%
+Asrguradora y,Tamaulipas,Tamaulipas,Taller J,Multimarca,Incidentes pequeños,C,Automovil Pesado,Dodge Attitude 2018,4/21/2024,4/29/2024,92%
+GNP,Tabasco,Tabasco,Taller C,Multimarca,Incidentes graves,D,Automovil Pesado,Toyota Hilux 2017,3/6/2023,4/5/2023,82%
+Aseguradora x,Zacatecas,Zacatecas,Taller D,Agencia,Incidentes moderados,C,Auto,Honda CR-V 2021,3/26/2023,4/7/2023,97%
+Inter mx,Sonora,Sonora,Taller A,Agencia,Incidentes pequeños,B,Automovil Pesado,Toyota Hilux 2017,5/13/2024,5/23/2024,87%
+GNP,Tabasco,Tabasco,Taller F,Multimarca,Incidentes pequeños,A,Auto,Dodge Attitude 2018,7/24/2023,7/28/2023,98%
+Aseguradora x,Coahuila,Coahuila,Taller B,Agencia,Incidentes moderados,B,Moto,Honda CR-V 2021,5/24/2023,6/21/2023,100%
+Asrguradora y,Tabasco,Tabasco,Taller G,Agencia,Incidentes moderados,D,Automovil Pesado,Nissan Versa 2020,5/20/2023,6/4/2023,69%
+GNP,Ciudad de México,Ciudad de México,Taller F,Agencia,Incidentes graves,C,Automovil Pesado,Nissan Versa 2020,10/8/2022,11/4/2022,98%
+Asrguradora y,Sinaloa,Sinaloa,Taller D,Agencia,Incidentes pequeños,C,Automovil Pesado,Ford Figo 2022,9/5/2024,10/1/2024,84%
+Aseguradora x,Chiapas,Chiapas,Taller E,Agencia,Incidentes moderados,D,Moto,Toyota Hilux 2017,9/23/2023,10/23/2023,71%
+GNP,Estado de México,Estado de México,Taller G,Agencia,Incidentes moderados,A,Auto,Toyota Hilux 2017,11/13/2023,12/12/2023,75%
+Asrguradora y,Morelos,Morelos,Taller J,Agencia,Incidentes pequeños,D,Auto,Honda CR-V 2021,1/23/2023,2/1/2023,85%
+Asrguradora y,Ciudad de México,Ciudad de México,Taller H,Agencia,Incidentes graves,C,Automovil Pesado,Nissan Versa 2020,3/29/2024,4/17/2024,86%
+Aseguradora x,Durango,Durango,Taller D,Multimarca,Incidentes pequeños,A,Auto,Ford Figo 2022,5/14/2022,5/27/2022,67%
+GNP,Guanajuato,Guanajuato,Taller A,Agencia,Incidentes pequeños,C,Moto,Toyota Hilux 2017,12/3/2024,12/13/2024,68%
+GNP,Guanajuato,Guanajuato,Taller D,Agencia,Incidentes graves,A,Auto,Dodge Attitude 2018,9/8/2024,9/23/2024,64%
+Asrguradora y,Tlaxcala,Tlaxcala,Taller B,Multimarca,Incidentes graves,D,Automovil Pesado,Dodge Attitude 2018,12/22/2022,1/18/2023,71%
+Asrguradora y,Morelos,Morelos,Taller B,Agencia,Incidentes moderados,A,Moto,Dodge Attitude 2018,7/14/2023,7/27/2023,63%
+Asrguradora y,Zacatecas,Zacatecas,Taller I,Multimarca,Incidentes moderados,A,Automovil Pesado,Dodge Attitude 2018,5/12/2022,6/10/2022,97%
+Asrguradora y,San Luis Potosí,San Luis Potosí,Taller D,Multimarca,Incidentes moderados,D,Auto,Chevrolet Aveo 2019,7/9/2023,7/20/2023,94%
+Inter mx,Quintana Roo,Quintana Roo,Taller E,Agencia,Incidentes moderados,D,Automovil Pesado,Nissan Versa 2020,5/28/2024,6/4/2024,65%
+Inter mx,Veracruz,Veracruz,Taller C,Agencia,Incidentes pequeños,D,Automovil Pesado,Dodge Attitude 2018,5/15/2022,5/18/2022,69%
+Inter mx,Puebla,Puebla,Taller D,Multimarca,Incidentes moderados,C,Moto,Ford Figo 2022,7/25/2023,8/19/2023,60%
+Inter mx,Nayarit,Nayarit,Taller F,Multimarca,Incidentes pequeños,B,Automovil Pesado,Honda CR-V 2021,8/23/2023,9/20/2023,75%
+Inter mx,Morelos,Morelos,Taller C,Agencia,Incidentes pequeños,C,Auto,Toyota Hilux 2017,2/5/2022,2/17/2022,84%
+Asrguradora y,Puebla,Puebla,Taller B,Agencia,Incidentes graves,B,Auto,Nissan Versa 2020,8/2/2024,8/7/2024,96%
+GNP,Zacatecas,Zacatecas,Taller I,Agencia,Incidentes graves,C,Moto,Honda CR-V 2021,3/29/2024,4/2/2024,80%
+Inter mx,Zacatecas,Zacatecas,Taller A,Agencia,Incidentes moderados,B,Moto,Chevrolet Aveo 2019,8/14/2022,8/26/2022,68%
+GNP,Veracruz,Veracruz,Taller A,Multimarca,Incidentes graves,D,Automovil Pesado,Honda CR-V 2021,12/18/2023,12/25/2023,94%
+Aseguradora x,Ciudad de México,Ciudad de México,Taller E,Agencia,Incidentes moderados,B,Moto,Honda CR-V 2021,4/28/2023,5/20/2023,99%
+Aseguradora x,Guerrero,Guerrero,Taller E,Multimarca,Incidentes pequeños,C,Auto,Toyota Hilux 2017,8/22/2022,9/8/2022,95%
+GNP,Guanajuato,Guanajuato,Taller E,Agencia,Incidentes graves,B,Automovil Pesado,Nissan Versa 2020,12/7/2022,12/24/2022,95%
+Aseguradora x,Coahuila,Coahuila,Taller E,Agencia,Incidentes moderados,A,Automovil Pesado,Toyota Hilux 2017,11/20/2024,11/24/2024,80%
+GNP,Tabasco,Tabasco,Taller A,Multimarca,Incidentes moderados,D,Automovil Pesado,Ford Figo 2022,2/24/2022,3/19/2022,66%
+Asrguradora y,Campeche,Campeche,Taller F,Multimarca,Incidentes moderados,C,Moto,Nissan Versa 2020,6/3/2023,6/17/2023,71%
+Aseguradora x,Coahuila,Coahuila,Taller E,Agencia,Incidentes pequeños,B,Moto,Chevrolet Aveo 2019,8/14/2022,9/2/2022,88%
+Inter mx,Chihuahua,Chihuahua,Taller A,Multimarca,Incidentes pequeños,D,Moto,Ford Figo 2022,5/7/2024,5/13/2024,80%
+Inter mx,Jalisco,Jalisco,Taller H,Multimarca,Incidentes graves,B,Auto,Nissan Versa 2020,2/12/2022,2/24/2022,75%
+GNP,Yucatán,Yucatán,Taller B,Agencia,Incidentes pequeños,C,Auto,Nissan Versa 2020,12/14/2024,1/13/2025,60%
+Inter mx,Zacatecas,Zacatecas,Taller B,Multimarca,Incidentes pequeños,B,Moto,Nissan Versa 2020,9/9/2023,10/3/2023,89%
+Asrguradora y,Michoacán,Michoacán,Taller H,Agencia,Incidentes pequeños,D,Automovil Pesado,Ford Figo 2022,5/3/2024,5/7/2024,85%
+Aseguradora x,Tamaulipas,Tamaulipas,Taller G,Multimarca,Incidentes moderados,C,Automovil Pesado,Chevrolet Aveo 2019,1/9/2023,1/13/2023,63%
+Aseguradora x,Ciudad de México,Ciudad de México,Taller F,Multimarca,Incidentes moderados,A,Auto,Toyota Hilux 2017,6/25/2024,7/19/2024,87%
+GNP,Morelos,Morelos,Taller H,Multimarca,Incidentes moderados,D,Automovil Pesado,Chevrolet Aveo 2019,11/13/2022,11/18/2022,86%
+Inter mx,Jalisco,Jalisco,Taller B,Agencia,Incidentes moderados,A,Automovil Pesado,Dodge Attitude 2018,3/5/2024,4/4/2024,76%
+Asrguradora y,San Luis Potosí,San Luis Potosí,Taller J,Multimarca,Incidentes graves,A,Moto,Toyota Hilux 2017,10/18/2022,11/12/2022,76%
+Inter mx,San Luis Potosí,San Luis Potosí,Taller I,Agencia,Incidentes graves,A,Auto,Ford Figo 2022,12/30/2024,1/5/2025,93%
+GNP,Chiapas,Chiapas,Taller B,Agencia,Incidentes graves,A,Automovil Pesado,Nissan Versa 2020,10/27/2022,11/17/2022,89%
+GNP,Guanajuato,Guanajuato,Taller I,Multimarca,Incidentes graves,D,Moto,Honda CR-V 2021,1/29/2024,2/19/2024,73%
+Asrguradora y,Ciudad de México,Ciudad de México,Taller G,Agencia,Incidentes graves,D,Auto,Honda CR-V 2021,10/10/2024,10/19/2024,75%
+Asrguradora y,Quintana Roo,Quintana Roo,Taller B,Agencia,Incidentes graves,D,Moto,Ford Figo 2022,6/10/2024,6/25/2024,82%
+Asrguradora y,Colima,Colima,Taller D,Multimarca,Incidentes graves,D,Auto,Dodge Attitude 2018,8/17/2022,9/9/2022,90%
+Inter mx,Colima,Colima,Taller E,Agencia,Incidentes moderados,C,Moto,Chevrolet Aveo 2019,4/16/2024,4/28/2024,89%
+Aseguradora x,Puebla,Puebla,Taller C,Agencia,Incidentes moderados,C,Automovil Pesado,Ford Figo 2022,7/5/2022,7/25/2022,67%
+Inter mx,Tamaulipas,Tamaulipas,Taller E,Multimarca,Incidentes pequeños,A,Automovil Pesado,Honda CR-V 2021,12/7/2023,1/4/2024,77%
+Aseguradora x,Sinaloa,Sinaloa,Taller G,Agencia,Incidentes graves,A,Automovil Pesado,Ford Figo 2022,2/15/2024,2/27/2024,71%
+Aseguradora x,Baja California Sur,Baja California Sur,Taller I,Agencia,Incidentes pequeños,C,Auto,Chevrolet Aveo 2019,9/13/2023,9/23/2023,90%
+Aseguradora x,Jalisco,Jalisco,Taller C,Multimarca,Incidentes graves,D,Auto,Ford Figo 2022,1/30/2023,2/10/2023,76%
+Asrguradora y,Ciudad de México,Ciudad de México,Taller C,Agencia,Incidentes moderados,A,Auto,Ford Figo 2022,12/23/2023,1/8/2024,86%

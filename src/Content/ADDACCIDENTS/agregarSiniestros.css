@@ -1,0 +1,11 @@
+#add-container {
+    padding: 75px 100px;
+    min-height: 100vh;
+    color: white;
+}
+#csv-container{
+    padding: 0 35px;
+}
+#add-table{
+    margin-top: 25px;
+}
