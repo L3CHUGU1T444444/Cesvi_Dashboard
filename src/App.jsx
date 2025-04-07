@@ -5,7 +5,7 @@ import { SIDEMENU } from "./sideMenu/sideMenu.jsx";
 import { MAINDASHBOARD } from "./Content/MAIN/paginaPrincipal.jsx";
 import { GARAGE } from "./Content/GARAGE/talleresMecanicos.jsx";
 import { LOCATION } from "./Content/LOCATION/ubicacionTalleres.jsx";
-import { ADDACCIDENTS } from "./Content/AGREGARSINIESTROS/agregarSiniestros.jsx";
+import { ADDACCIDENTS } from "./Content/ADDACCIDENTS/agregarSiniestros.jsx";
 import { CONSULTARSINIESTROS } from "./Content/CONSULTARSINIESTROS/consultarSiniestros.jsx";
 import { CONSULTARPORAGENCIA } from "./Content/CONSULTARAGENCIA/consultarPorAgencia.jsx";
 import { CHANGELOG } from "./Content/CHANGELOG/historialUsuario.jsx";
@@ -20,7 +20,7 @@ function App() {
         <SIDEMENU setActive={setActive} />
       </section>
 
-      <section id="dashboard" className="min-h-screen bg-[#00111F] w-full transition-all duration-1000">
+      <section id="dashboard" className="min-h-screen h-fit max-w-full bg-[#00111F] w-full transition-all duration-1000">
         {active === "MAINDASHBOARD" && <MAINDASHBOARD />}
         {active === "GARAGE" && <GARAGE/>}
         {active === "LOCATION" && <LOCATION/>}
