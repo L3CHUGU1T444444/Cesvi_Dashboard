@@ -44,28 +44,28 @@ export function ADDACCIDENTS() {
     return (
         <div id="add-container">
             {/* Título */}
-            <div className="h-[100px] gap-[15px] w-full flex items-center">
-                <TbTablePlus className="text-[45px]" />
-                <p className="text-[45px]">Agregar Siniestros</p>
+            <div className="h-[75px] gap-[15px] w-full flex items-center lg:h-[100px]">
+                <TbTablePlus className="text-[35px] lg:text-[45px]"/>
+                <p className="text-[35px] lg:text-[45px]">Agregar Siniestros</p>
             </div>
 
             {/* Subtítulo */}
-            <div className="h-[70px] gap-[15px] w-full flex items-center">
-                <FaEdit className="text-[25px] text-gray-300" />
-                <p className="text-[25px] text-gray-300">Importar Base de Datos</p>
+            <div className="h-[80px] gap-[15px] w-full flex items-center">
+                <FaEdit className="text-[20px] text-gray-300 lg:text-[25px]"/>
+                <p className="text-[20px] text-gray-300 lg:text-[25px]">Importar Base de Datos</p>
             </div>
 
             {/* Área de carga */}
-            <div className="h-[80px] w-[55%] flex bg-[#2F333E] border-[5px] border-[#262A33] rounded-[10px] items-center justify-around">
-                <p><span className="text-red-500">* </span> Archivo .CSV</p>
-                <div className="h-[75%] w-[75%] flex bg-[#234D62] border-[1px] border-[#117498] rounded-[5px] items-center justify-around">
+            <div className="h-[80px] w-full flex bg-[#2F333E] border-[5px] border-[#262A33] rounded-[10px] items-center justify-around lg:w-[55%]">
+                <p className="text-center text-sm lg:text-base"><span className="text-red-500">* </span> Archivo .CSV</p>
 
+                <div className="h-[75%] w-[65%] flex bg-[#234D62] border-[1px] border-[#117498] rounded-[5px] items-center justify-around lg:w-[75%]">
                     <button onClick={handleClick} className=" w-[75px] text-black text-[12px] border-[1px] border-[#AAA4A8] bg-[#f0f0f0] cursor-pointer">
                         Choose File
                     </button>
                     <input id="file" ref={fileInputRef} type="file" accept=".csv" onClick={handleFileUpload} className="hidden"/>
 
-                    <div className="h-[50%] w-[50%] flex bg-[#1A617D] rounded-[1px] items-center justify-around">
+                    <div className="h-[50%] w-[50%] hidden bg-[#1A617D] rounded-[1px] items-center justify-around lg:flex">
                         <p className="text-gray-300 text-[11px]">
                             {currentFile ? (currentFile) : (".csv")}
                         </p>
@@ -78,7 +78,7 @@ export function ADDACCIDENTS() {
             </div>
 
             {/* Subtítulo #2 */}
-            <div className="h-[75px] gap-[15px] w-full flex items-end">
+            <div className="h-[50px] gap-[15px] w-full flex items-end lg:h-[75px]">
                 <FaEdit className="text-[20px] text-gray-300" />
                 <p className="text-[20px] text-gray-300 leading-none">Datos</p>
             </div>
