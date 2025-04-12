@@ -1,7 +1,8 @@
-import { TbTablePlus } from "react-icons/tb";
+import icons from "../../assets/icons.jsx";
 import { FaEdit } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { useRef } from "react";
+import { TOPBAR } from "../TOPBAR/barraArriba.jsx";
 import Papa from 'papaparse';
 import "./agregarSiniestros.css";
 // npm i papaparse
@@ -11,6 +12,7 @@ export function ADDACCIDENTS() {
     const [data, setData] = useState();
     const [currentFile, setCurrentFile] = useState();
     const fileInputRef = useRef(null);
+    // const fileNamess = currentFile ? (currentFile) : (".csv");
 
     const handleClick = () => {
         fileInputRef.current.click();
@@ -26,7 +28,7 @@ export function ADDACCIDENTS() {
             console.log("Archivo Seleccionado:", currentFile);
         }
     }, [currentFile]);
-
+    
     const uploadCSV = () => {
         const file = fileInputRef.current.files[0];
         if (!file) {
@@ -42,87 +44,98 @@ export function ADDACCIDENTS() {
     }
 
     return (
-        <div id="add-container">
-            {/* Título */}
-            <div className="h-[75px] gap-[15px] w-full flex items-center lg:h-[100px]">
-                <TbTablePlus className="text-[35px] lg:text-[45px]"/>
-                <p className="text-[35px] lg:text-[45px]">Agregar Siniestros</p>
-            </div>
+        <div className="text-[black]">
+            <TOPBAR {...icons.Agregar} title="Agregar Siniestros" />
 
-            {/* Subtítulo */}
-            <div className="h-[80px] gap-[15px] w-full flex items-center">
-                <FaEdit className="text-[20px] text-gray-300 lg:text-[25px]"/>
-                <p className="text-[20px] text-gray-300 lg:text-[25px]">Importar Base de Datos</p>
-            </div>
-
-            {/* Área de carga */}
-            <div className="h-[80px] w-full flex bg-[#2F333E] border-[5px] border-[#262A33] rounded-[10px] items-center justify-around lg:w-[55%]">
-                <p className="text-center text-sm lg:text-base"><span className="text-red-500">* </span> Archivo .CSV</p>
-
-                <div className="h-[75%] w-[65%] flex bg-[#234D62] border-[1px] border-[#117498] rounded-[5px] items-center justify-around lg:w-[75%]">
-                    <button onClick={handleClick} className=" w-[75px] text-black text-[12px] border-[1px] border-[#AAA4A8] bg-[#f0f0f0] cursor-pointer">
-                        Choose File
-                    </button>
-                    <input id="file" ref={fileInputRef} type="file" accept=".csv" onClick={handleFileUpload} className="hidden"/>
-
-                    <div className="h-[50%] w-[50%] hidden bg-[#1A617D] rounded-[1px] items-center justify-around lg:flex">
-                        <p className="text-gray-300 text-[11px]">
-                            {currentFile ? (currentFile) : (".csv")}
-                        </p>
-                    </div>
-
-                    <button onClick={uploadCSV} className="h-[50%] w-[75px] text-[12px] font-bold bg-[#0988B4] cursor-pointer">
-                        Subir
-                    </button>
+            <div id="container-add" >
+                <div className="h-[80px] gap-[10px] w-full flex items-end">
+                    <FaEdit className="text-[35px]"/>
+                    <p className="text-[20px]">Importar Base de Datos</p>
                 </div>
-            </div>
 
-            {/* Subtítulo #2 */}
-            <div className="h-[50px] gap-[15px] w-full flex items-end lg:h-[75px]">
-                <FaEdit className="text-[20px] text-gray-300" />
-                <p className="text-[20px] text-gray-300 leading-none">Datos</p>
-            </div>
+                <div id="import-add" className="h-[80px] w-[55%] flex gap-[15px] bg-[#009AD4] rounded-[10px] items-center justify-center text-[white]">
+                    <p className="text-center text-sm lg:text-base"><span className="text-red-500">* </span> Archivo .CSV</p>
 
-            <div id="add-table" className="w-[full] overflow-x-auto">
-                <table className="text-left min-w-max">
-                    <thead className="bg-gray-900 h-[50px] uppercase text-[12px]">
-                        <tr>
-                            <th className="min-w-[200px]">Agencia</th>
-                            <th className="min-w-[200px]">Estado</th>
-                            <th className="min-w-[200px]">Municipio</th>
-                            <th className="min-w-[200px]">Taller</th>
-                            <th className="min-w-[200px]">Tipo Taller</th>
-                            <th className="min-w-[200px]">Tipo Incidente</th>
-                            <th className="min-w-[200px]">Intervalo Siniestro</th>
-                            <th className="min-w-[200px]">Tipo de Vehiculo</th>
-                            <th className="min-w-[200px]">Modelo Vehiculo</th>
-                            <th className="min-w-[200px]">Fecha Siniestro</th>
-                            <th className="min-w-[200px]">Fecha Entrega Vehiculo</th>
-                            <th className="min-w-[200px]">Calificacion</th>
-                        </tr>
-                    </thead>
+                    <div className="h-[60%] w-[65%] flex bg-[#F5F5F5] border-[1px] border-[#D9D9D9] rounded-[10px] items-center justify-around lg:w-[75%]">
+                        <button onClick={handleClick} className=" w-[75px] text-black text-[12px] border-[1px] border-[#AAA4A8] bg-[#f0f0f0] cursor-pointer">
+                            Choose File
+                        </button>
+                        <input id="file" ref={fileInputRef} type="file" accept=".csv" onClick={handleFileUpload} className="hidden"/>
 
-                    {Array.isArray(data) && data.length ? (
-                        <tbody className="bg-gray-800 divide-y divide-gray-700">
-                            {data.map((row, index) => (
-                                <tr className="hover:bg-gray-700 hover:text-white text-gray-300" key={index}>
-                                    <td>{row['Agencia']}</td>
-                                    <td>{row['Estado']}</td>
-                                    <td>{row['Municipio']}</td>
-                                    <td>{row['Taller']}</td>
-                                    <td>{row['Tipo-Taller']}</td>
-                                    <td>{row['Tipo-Incidente']}</td>
-                                    <td>{row['Intervalo-Siniestro']}</td>
-                                    <td>{row['Tipo-de-Vehiculo']}</td>
-                                    <td>{row['Modelo-Vehiculo']}</td>
-                                    <td>{row['Fecha-Siniestro']}</td>
-                                    <td>{row['Fecha-Entrega-Vehiculo']}</td>
-                                    <td>{row['Calificacion']}</td>
-                                </tr>
-                            ))}
-                        </tbody>
-                    ) : null}
-                </table>
+                        <div className="h-[50%] w-[50%] hidden bg-[#71C5E1] rounded-[1px] items-center justify-around lg:flex">
+                            <p className="text-[11px]">
+                                {/* {fileNamess} */}
+                                {currentFile ? (currentFile) : (".csv")}
+                            </p>
+                        </div>
+
+                        <button onClick={uploadCSV} className="h-[50%] w-[75px] text-[12px] font-bold bg-[#1677FF] cursor-pointer">
+                            Subir
+                        </button>
+                    </div>
+                </div>
+
+                <div className="w-[full] overflow-x-auto">
+                    <table className="text-left min-w-max">
+                        <thead className="bg-[#009AD4] h-[50px] uppercase text-[12px]">
+                            <tr className="text-[white]">
+                                <th className="min-w-[200px]">zona</th>
+                                <th className="min-w-[200px]">id</th>
+                                <th className="min-w-[200px]">nombre_comercial</th>
+                                <th className="min-w-[200px]">tipo_taller</th>
+                                <th className="min-w-[200px]">unidad</th>
+                                <th className="min-w-[200px]">municipio</th>
+                                <th className="min-w-[200px]">estado</th>
+                                <th className="min-w-[200px]">cp</th>
+                                <th className="min-w-[200px]">numero_siniestro</th>
+                                <th className="min-w-[200px]">costo_total_siniestro</th>
+                                <th className="min-w-[200px]">costo_total_refacciones</th>
+                                <th className="min-w-[200px]">costo_total_mano_obra</th>
+                                <th className="min-w-[200px]">otros_costos</th>
+                                <th className="min-w-[200px]">numero_total_refacciones</th>
+                                <th className="min-w-[200px]">numero_complementos</th>
+                                <th className="min-w-[200px]">dias_estadia</th>
+                                <th className="min-w-[200px]">mes_conclusion_siniestro</th>
+                                <th className="min-w-[200px]">a�o_conclusion_siniestro</th>
+                                <th className="min-w-[200px]">vehiculo</th>
+                                <th className="min-w-[200px]">marca</th>
+                                <th className="min-w-[200px]">anio_modelo</th>
+                                <th className="min-w-[200px]">taller_exclusivo</th>
+                            </tr>
+                        </thead>
+
+                        {Array.isArray(data) && data.length ? (
+                            <tbody className="bg-[#E9F1F4] divide-y divide-[#009AD4] text-[black]">
+                                {data.map((row, index) => (
+                                    <tr className="hover:bg-[#A4D7EB] hover:text-[#6B8C99]" key={index}>
+                                        <td>{row['zona']}</td>
+                                        <td>{row['id']}</td>
+                                        <td>{row['nombre_comercial']}</td>
+                                        <td>{row['tipo_taller']}</td>
+                                        <td>{row['unidad']}</td>
+                                        <td>{row['municipio']}</td>
+                                        <td>{row['estado']}</td>
+                                        <td>{row['cp']}</td>
+                                        <td>{row['numero_siniestro']}</td>
+                                        <td>{row['costo_total_siniestro']}</td>
+                                        <td>{row['costo_total_refacciones']}</td>
+                                        <td>{row['costo_total_mano_obra']}</td>
+                                        <td>{row['otros_costos']}</td>
+                                        <td>{row['numero_total_refacciones']}</td>
+                                        <td>{row['numero_complementos']}</td>
+                                        <td>{row['dias_estadia']}</td>
+                                        <td>{row['mes_conclusion_siniestro']}</td>
+                                        <td>{row['a�o_conclusion_siniestro']}</td>
+                                        <td>{row['vehiculo']}</td>
+                                        <td>{row['marca']}</td>
+                                        <td>{row['anio_modelo']}</td>
+                                        <td>{row['taller_exclusivo']}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        ) : null}
+                    </table>
+                </div>
             </div>
         </div>
     );

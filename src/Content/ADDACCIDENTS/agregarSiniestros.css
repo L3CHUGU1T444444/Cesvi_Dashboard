@@ -1,13 +1,17 @@
-#add-container {
-    padding: 75px 100px;
-    min-height: 100vh;
-    color: white;
+#container-add {
+    padding: 35px 75px 0;
 }
+
+#title-container-add{
+    padding: 0 75px;
+}
+
+#import-add{
+    margin: 50px 0;
+}
+
 #csv-container{
     padding: 0 35px;
-}
-#add-table{
-    margin-top: 25px;
 }
 
 @media (max-width: 1024px) {

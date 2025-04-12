@@ -16,11 +16,11 @@ function App() {
 
   return (
     <div className="flex h-screen w-screen">
-      <section className="fixed left-0 top-0 h-full w-[285px] bg-[#013462] transform hidden sm:block transition-all duration-1000">
+      <section className="fixed left-0 top-0 h-full w-[225px] bg-[#013462] transform hidden sm:block transition-all duration-1000">
         <SIDEMENU setActive={setActive} />
       </section>
 
-      <section id="dashboard" className="min-h-screen h-fit max-w-full bg-[#00111F] w-full transition-all duration-1000">
+      <section id="dashboard" className="min-h-screen h-fit max-w-full bg-[#F5F5F5] w-full transition-all duration-1000">
         {active === "MAINDASHBOARD" && <MAINDASHBOARD />}
         {active === "GARAGE" && <GARAGE/>}
         {active === "LOCATION" && <LOCATION/>}

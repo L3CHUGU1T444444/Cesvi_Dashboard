@@ -16,8 +16,8 @@ body {
 }
 
 #dashboard {
-  width: calc(100% - 285px);
-  margin-left: 285px;
+  width: calc(100% - 225px);
+  margin-left: 225px;
 }
 
 @media (max-width: 640px) {
