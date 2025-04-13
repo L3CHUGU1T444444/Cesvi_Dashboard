@@ -1,17 +1,4 @@
 /* Estilos generales */
-.app-container {
-    color: #FFFFFF;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    min-height: 100vh;
-  }
-  
-  .main-title {
-    font-size: 2rem;
-    color: #E0E0E0;
-    margin-bottom: 20px;
-    text-align: center;
-  }
   
   /* Contenedor de filtros principales */
   .filtros-container {

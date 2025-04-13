@@ -2,6 +2,9 @@ import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend } from 'recharts';
 import './talleresMecanicos.css';
 
+import icons from "../../assets/icons.jsx";
+import { TOPBAR } from "../TOPBAR/barraArriba.jsx";
+
 export function GARAGE () {
   // Datos para los gráficos
   const paymentData = [
@@ -34,9 +37,7 @@ export function GARAGE () {
 
   return (
     <div className="dashboard-horizontal">
-      <header className="dashboard-header">
-        <h1>Talleres Mecanicos</h1>
-      </header>
+      <TOPBAR {...icons.Mecanico} title="Talleres Mecanicos"/>
 
       <div className="dashboard-content">
         {/* Primera columna */}

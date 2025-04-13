@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 import { SIDEMENU } from "./sideMenu/sideMenu.jsx";
-
 import { MAINDASHBOARD } from "./Content/MAIN/paginaPrincipal.jsx";
 import { GARAGE } from "./Content/GARAGE/talleresMecanicos.jsx";
 import { LOCATION } from "./Content/LOCATION/ubicacionTalleres.jsx";
@@ -10,6 +9,9 @@ import { CONSULTARSINIESTROS } from "./Content/CONSULTARSINIESTROS/consultarSini
 import { CONSULTARPORAGENCIA } from "./Content/CONSULTARAGENCIA/consultarPorAgencia.jsx";
 import { CHANGELOG } from "./Content/CHANGELOG/historialUsuario.jsx";
 import { USERPROFILE } from "./Content/USERPROFILE/perfilUsuario.jsx";
+
+// import icons from "./assets/icons.jsx";
+// import { TOPBAR } from "./Content/TOPBAR/barraArriba.jsx";
 
 function App() {
   const [active, setActive] = useState("MAINDASHBOARD");

@@ -9,6 +9,9 @@ import {
 } from "react-icons/fa";
 import "./consultarPorAgencia.css";
 
+import icons from "../../assets/icons.jsx";
+import { TOPBAR } from "../TOPBAR/barraArriba.jsx";
+
 export function CONSULTARPORAGENCIA() {
   const [selectedAgencia, setSelectedAgencia] = useState("");
   const [selectedAnio, setSelectedAnio] = useState("");
@@ -309,7 +312,7 @@ export function CONSULTARPORAGENCIA() {
   return (
     <div className="app-container">
       <div className="main-content">
-        <h1 className="main-title">Consulta por agencia</h1>
+        <TOPBAR {...icons.Agencia} title="Consultar Base de Datos"/>
 
         {/* Filtros */}
         <div className="filtros-container">

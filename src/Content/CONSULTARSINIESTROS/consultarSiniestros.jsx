@@ -1,8 +1,11 @@
 import React from 'react';
- import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from 'recharts';
- import { IoFilterSharp } from "react-icons/io5";
- import { FaAngleRight } from "react-icons/fa";
- import './consultarSiniestros.css';
+import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from 'recharts';
+import { IoFilterSharp } from "react-icons/io5";
+import { FaAngleRight } from "react-icons/fa";
+import './consultarSiniestros.css';
+
+import icons from "../../assets/icons.jsx";
+import { TOPBAR } from "../TOPBAR/barraArriba.jsx";
  
  export function CONSULTARSINIESTROS() {
    const sourcesData = [
@@ -33,8 +36,10 @@ import React from 'react';
  
    return (
      <div className="container">
-       <h1 className="title">Consulta por Siniestro</h1>
-       <div className="nav-bar">
+      
+      <TOPBAR {...icons.Consultar} title="Consultar Estatus"/>
+            
+      <div className="nav-bar">
          {["Marca", "Año", "Modelo", "Dato"].map((label, idx) => (
            <div key={label} className="nav-item">
              <span>{label}</span>

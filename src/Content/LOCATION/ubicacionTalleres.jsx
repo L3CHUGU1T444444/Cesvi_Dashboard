@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { FaChevronDown, FaFilter } from "react-icons/fa";
 import "./ubicacionTalleres.css";
 
+import icons from "../../assets/icons.jsx";
+import { TOPBAR } from "../TOPBAR/barraArriba.jsx";
+
 
 export function LOCATION() {
     // Estados para los filtros
@@ -27,8 +30,8 @@ export function LOCATION() {
     };
 
     return (
-        <div className="app-container">
-            <h1 className="main-title">Mapa Nacional</h1>
+        <div>
+            <TOPBAR {...icons.Ubicacion} title="Intervalos y Criterios"/>
       
             {/* Filtros principales */}
             <div className="filtros-container">
