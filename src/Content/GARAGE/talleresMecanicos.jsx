@@ -1,14 +1,12 @@
 import icons from "../../assets/icons.jsx";
 import { FilterSubtitle } from "../filterSubtitle/filterSubtitle.jsx";
 import { TOPBAR } from "../TOPBAR/barraArriba.jsx";
-import { FilterButtons } from "../filterButons/filterButtons.jsx";
-
-import { models } from "powerbi-client";
-
-import { useRef } from "react";
 import "./talleresMecanicos.css";
 
+import { useRef } from "react";
+import { models } from "powerbi-client";
 import { PowerBIEmbed } from 'powerbi-client-react';
+
 
 export function GARAGE() {
   const reportRef = useRef(null);
@@ -20,18 +18,7 @@ export function GARAGE() {
             <div id="container" >
                 <FilterSubtitle text="Filtros"/>
 
-                <div id="buttonsContainer" className="flex gap-[25px]">
-                    <FilterButtons/>
-                    <FilterButtons/>
-                    <FilterButtons/>
-                    <FilterButtons/>
-                    <FilterButtons/>
-                    <FilterButtons/>
-                    <FilterButtons/>
-                    <FilterButtons/>
-                </div>
-
-                <div id="filteredData" className="grid grid-cols-[5px_1fr_5px_1fr] gap-4">
+                {/* <div id="filteredData" className="grid grid-cols-[5px_1fr_5px_1fr] gap-4">
 
                   <div className="bg-[#009AD4] h-full w-[2px]"></div>
                   <div className="flex flex-col gap-1">
@@ -46,7 +33,7 @@ export function GARAGE() {
                     <span>Inscrito a CESVI: ACTIVO</span>
                     <span>Taller Exclusivo: SI</span>
                   </div>
-                </div>
+                </div> */}
 
                 <PowerBIEmbed
                   embedConfig={{
