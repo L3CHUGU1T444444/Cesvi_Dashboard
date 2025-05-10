@@ -53,16 +53,16 @@ export function ADDACCIDENTS() {
                     <p className="text-[20px]">Importar Base de Datos</p>
                 </div>
 
-                <div id="import-add" className="h-[80px] w-[55%] flex gap-[15px] bg-[#009AD4] rounded-[10px] items-center justify-center text-[white]">
-                    <p className="text-center text-sm lg:text-base"><span className="text-red-500">* </span> Archivo .CSV</p>
+                <div id="import-add" className="h-[80px] w-[100%] flex gap-[15px] bg-[#009AD4] rounded-[10px] items-center justify-center lg:justify-around text-[white] lg:w-[55%]">
+                    <p className="text-center text-xs lg:text-sm lg:text-base "><span className="text-red-500">* </span> Archivo .CSV</p>
 
-                    <div className="h-[60%] w-[65%] flex bg-[#F5F5F5] border-[1px] border-[#D9D9D9] rounded-[10px] items-center justify-around lg:w-[75%]">
+                    <div className="h-[60%] w-[65%] flex bg-[#F5F5F5] border-[1px] border-[#D9D9D9] rounded-[10px] items-center justify-around">
                         <button onClick={handleClick} className=" w-[75px] text-black text-[12px] border-[1px] border-[#AAA4A8] bg-[#f0f0f0] cursor-pointer">
                             Choose File
                         </button>
                         <input id="file" ref={fileInputRef} type="file" accept=".csv" onClick={handleFileUpload} className="hidden"/>
 
-                        <div className="h-[50%] w-[50%] hidden bg-[#71C5E1] rounded-[1px] items-center justify-around lg:flex">
+                        <div className="h-[50%] w-[50%] hidden bg-[#71C5E1] rounded-[1px] items-center justify-around xl:flex">
                             <p className="text-[11px]">
                                 {/* {fileNamess} */}
                                 {currentFile ? (currentFile) : (".csv")}

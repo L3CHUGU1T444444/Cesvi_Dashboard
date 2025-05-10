@@ -91,7 +91,7 @@ export function CHANGELOG () {
 
   return (
     <div className="historial-container">
-      <div className="historial-header">
+      {/* <div className="historial-header">
         <div className="icon-title">
           <span className="search-icon">🔍</span>
           <h1>Historial de Usuario</h1>
@@ -242,7 +242,7 @@ export function CHANGELOG () {
             </tbody>
           </table>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

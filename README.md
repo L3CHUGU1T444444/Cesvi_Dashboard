@@ -1,17 +1,53 @@
-<<<<<<< HEAD
 # cesvi-dashboard
 Este es un Repositorio donde se trabaja el frontend de un proyecto en colaboracion con Cesvi Mexico si exacto
-=======
+==============================================
 # React + Vite
+==============================================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Instalacion de Librerias
 
-Currently, two official plugins are available:
+;; Bash
+npm i papaparse
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+;; Bash
+npm install powerbi-client-react
+npm list powerbi-client-react
 
-## Expanding the ESLint configuration
+==============================================
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> e1648bc (Nuevo Repositorio Frontend)
+# Uso y Lectura Correcta de Comentarios
+# 📝 Guía Completa de Comentarios Formato Hint
+
+- Entender el propósito de fragmentos de código.
+- Identificar tareas pendientes (TODO).
+- Marcar errores conocidos (FIXME).
+- Dar contexto (NOTE, HINT).
+- Evitar errores futuros (WARN).
+- Sugerir posibles mejoras (OPTIMIZE).
+- Pedir revisión de código (REVIEW).
+- Señalar soluciones temporales (HACK).
+
+---
+
+- Entender el propósito de fragmentos de código.
+- Identificar tareas pendientes (TODO).
+- Marcar errores conocidos (FIXME).
+- Dar contexto (NOTE, HINT).
+- Evitar errores futuros (WARN).
+- Sugerir posibles mejoras (OPTIMIZE).
+- Pedir revisión de código (REVIEW).
+- Señalar soluciones temporales (HACK).
+
+---
+
+## 🔤 Sintaxis de comentarios en React
+### 1. Comentarios en JavaScript (fuera del JSX)
+Se utilizan como en JavaScript normal:
+```js
+// HINT: Nombre usado para saludar al usuario
+const nombre = "React";
+
+// NOTE: Este componente es solo para mostrar un mensaje
+function Mensaje() {
+  return <h1>Hola, mundo</h1>;
+}
